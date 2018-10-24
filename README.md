@@ -37,7 +37,10 @@ python manage.py runserver
 ```
 
 # Testing with Postman
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Iampato/P.O-Box-Finder-Rest-API/master/images/note.PNG" width="350" title="Postman GET for all object">
+  <img src="https://raw.githubusercontent.com/Iampato/P.O-Box-Finder-Rest-API/master/images/note%201.PNG" width="350" alt="Postman GET for one object">
+</p>
 
 ## Contributing
 
