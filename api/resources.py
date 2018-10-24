@@ -1,10 +1,10 @@
 from tastypie.resources import ModelResource
-from api.models import Note
+from api.models import School
 from tastypie.authorization import Authorization
 
 class NoteResource(ModelResource):
     class Meta:
-        queryset = Note.objects.all()
-        resource_name = 'note'
+        queryset = School.objects.all()
+        resource_name = 'school'
         authorization = Authorization()
-        fields = ['title', 'body']
+        fields = ['Name', 'box', 'map_url']
