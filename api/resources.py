@@ -7,4 +7,4 @@ class NoteResource(ModelResource):
         queryset = School.objects.all()
         resource_name = 'school'
         authorization = Authorization()
-        fields = ['Name', 'box', 'map_url']
+        fields = ['name', 'box', 'mapurl']
